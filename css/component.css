@@ -74,7 +74,7 @@ nav a:focus {
 	padding: 8px 0 0 0;
     /* цвет описания */
 	color: #ffffff;
-	text-align: left;
+	text-align: center;
 	text-shadow: none;
 	text-transform: none;
 	font-style: italic;
@@ -208,7 +208,7 @@ nav a:focus {
 
 .link-app {
 	/*  */
-	width: 249px;
+	max-width: 249px;
 	/*  */
 }
 
