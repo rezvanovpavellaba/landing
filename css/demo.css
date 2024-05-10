@@ -1,28 +1,21 @@
+@import url(../vendor/fonts/font.css);
+
 .container > header,
 .codrops-top {
-	font-family: Arial, sans-serif;
+	font-family: 'Inter', sans-serif;
 }
 
-.container > header {
-	margin: 0 auto;
-	padding: 2em;
-	text-align: center;
-	color: #fff;
-}
+
 
 .container > header h1 {
-	font-size: 60px;
-	line-height: 1.3;
-	margin: 0;
-	font-weight: 300;
+	font-size: 56px;
+    line-height: 1.04;
+	margin: 100px 0 40px 40px;
+	font-weight: 900;
+	text-transform: uppercase;
 }
 
-.container > header span {
-	display: block;
-	font-size: 60%;
-	color: #ceccc6;
-	padding: 0 0 0.6em 0.1em;
-}
+
 
 .codrops-top {
 	background: #fff;
@@ -65,18 +58,10 @@
 
 .container > section {
 	margin: 0 auto;
-	padding: 10em 3em 6em 3em;
+	padding: 2.4em 3em 8em 3em;
 	text-align: center;
 }
 
 .color-9 {
-	background: #79a7d3;
-}
-
-@media screen and (max-width: 25em) {
-
-	.codrops-icon span {
-		display: none;
-	}
-
+	background: rgb(255, 255, 255);
 }
