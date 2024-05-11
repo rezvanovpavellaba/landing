@@ -1,130 +1,119 @@
 <!DOCTYPE html>
-<html lang="ru" class="no-js">
+<html lang="ru">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="robots" content="noindex,nofollow" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-		<title>Цифровые проекты центра</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="типовой одностраничный сайт AI-экосистема центра биофармацевтического анализа и метаболомных исследований">
+        <meta name="keywords" content="html, css, javascript">
+        <meta name="author" content="Центр биофармацевтического анализа и метаболомных исследований">
+		<title>AI-экосистема центра биофармацевтического анализа и метаболомных исследований</title>
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
-		<link rel="stylesheet" type="text/css" href="css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
-		<script src="js/modernizr.custom.js"></script>
 	</head>
 	<body>
-		<div class="container">
-			<!-- <header class="header" id="header">
-				<h1 class="header__title">Цифровые проекты центра</h1>
-				<a href="https://www.sechenov.ru/"><img class="header__main-illustration" src="./images/logo-new.png" alt="Лого"></a>
-			</header> -->
+		<div class="page">
 			<header class="header" id="header">
-
-				<!--Content before waves-->
-				<div class="inner-header flex">
-				<!--Just the logo.. Don't mind this-->
-				
-				<h1 class="header__title">Цифровые проекты центра</h1>
+				<div class="header__info">
+					<h1 class="header__title">AI-экосистема</h1>
+					<p class="header__text">центра биофармацевтического анализа и метаболомных исследований</p>
 				</div>
-				
 				<!--Waves Container-->
 				<div>
-				<svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-				viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
-				<defs>
-				<path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
-				</defs>
-				<g class="parallax">
-				<use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
-				<use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
-				<use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
-				<use xlink:href="#gentle-wave" x="48" y="7" fill="rgba(255,255,255)"  />
-				</g>
-				</svg>
+					<svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+					viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+					<defs>
+					<path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+					</defs>
+					<g class="parallax">
+					<use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+					<use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+					<use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+					<use xlink:href="#gentle-wave" x="48" y="7" fill="rgba(255,255,255)"  />
+					</g>
+					</svg>
 				</div>
-				<!--Waves end-->
-			
-                <a href="https://www.sechenov.ru/"><img class="header__main-illustration" src="./images/sechenov_1.png" alt="Лого"></a>
-
+                <a href="https://www.sechenov.ru/"><img class="header__logo" src="./images/logo.png" alt="Лого"></a>
 			</header>
-				<!--Header ends-->
-			<section class="color-9" id="projects">
-				<nav class="cards">
-					<div class="block__card">
-						<div class="card" id = "card_1">
-							<a class="link-app" href="http://localhost:8501/"><img class="image-app image-app-demo" src="./images/preclinical.jpeg" alt="Preclinical"><span class="subtitle">Доклинические исследования</span></a>
-							<span id = "span_1" class="span__description">Веб-приложение для расчёта и статистической обработки фармакокинетических/фармакодинамических параметров в доклинических исследованиях лекарственных препаратов</span>
-							<button id = "bth_1" class="bth" type="button" >О проекте</button>
+			<main class="content">
+				<section class="elements" id="elements">
+					<nav class="elements__cards">
+						<div class="elements__block-card">
+							<div class="card" id = "card_1">
+								<a class="card__link-app" href="http://localhost:8501/" target="_blank"><img class="card__image-app" src="./images/preclinical.jpeg" alt="Preclinical"><h2 class="card__title">Доклинические исследования</h2></a>
+								<p id = "card__text_1" class="card__text">Веб-приложение для расчёта и статистической обработки фармакокинетических/фармакодинамических параметров в доклинических исследованиях лекарственных препаратов</p>
+								<button id = "card__bth_1" class="card__bth" type="button" >О проекте</button>
+							</div>
 						</div>
-				    </div>
-					<div class="block__card">
-						<div class="card" id = "card_2">
-							<a class="link-app" href="#"><img class="image-app image-app-demo" src="./images/preprocessing.jpg" alt="Предобработка"><span class="subtitle">Предобработка инструментальных данных</span></a>
-							<span id = "span_2" class="span__description">Веб-приложение для предобработки и визуализации метаболомных данных</span>
-							<button id = "bth_2" class="bth">О проекте</button>
+						<div class="elements__block-card">
+							<div class="card" id = "card_2">
+								<a class="card__link-app" href="#" target="_blank"><img class="card__image-app" src="./images/preprocessing.jpg" alt="Предобработка"><h2 class="card__title">Предобработка инструментальных данных</h2></a>
+								<p id = "card__text_2" class="card__text">Веб-приложение для предобработки и визуализации метаболомных данных</p>
+								<button id = "card__bth_2" class="card__bth" type="button">О проекте</button>
+							</div>
 						</div>
-					</div>
-					<div class="block__card">
-						<div class="card" id = "card_3">
-							<a class="link-app" href="#"><img class="image-app image-app-demo" src="./images/qc.jpg" alt="Обработка"><span class="subtitle">Обработка и анализ метаболомных данных</span></a>
-							<span id = "span_3" class="span__description">Программное обеспечение для предобработки, углубленного статистического анализа и интерпретации результатов метаболомного исследования</span>
-							<button id = "bth_3" class="bth">О проекте</button>
+						<div class="elements__block-card">
+							<div class="card" id = "card_3">
+								<a class="card__link-app" href="#" target="_blank"><img class="card__image-app" src="./images/qc.jpg" alt="Обработка"><h2 class="card__title">Обработка и анализ метаболомных данных</h2></a>
+								<p id = "card__text_3" class="card__text">Программное обеспечение для предобработки, углубленного статистического анализа и интерпретации результатов метаболомного исследования</p>
+								<button id = "card__bth_3" class="card__bth" type="button">О проекте</button>
+							</div>
 						</div>
-					</div>
-					<div class="block__card"> 
-						<div class="card" id = "card_4">
-							<a class="link-app" href="#"><img class="image-app image-app-demo" src="./images/metaboscan_1.jpg" alt="Метабоскан"><span class="subtitle">Метабоскан</span></a>
-							<span id = "span_4" class="span__description">Уникальная скрининговая система диагностики патологии на основе метаболомного профиля</span>
-							<button id = "bth_4" class="bth">О проекте</button>
+						<div class="elements__block-card"> 
+							<div class="card" id = "card_4">
+								<a class="card__link-app" href="#" target="_blank"><img class="card__image-app" src="./images/metaboscan_1.jpg" alt="Метабоскан"><h2 class="card__title">Метабоскан</h2></a>
+								<p id = "card__text_4" class="card__text">Уникальная скрининговая система диагностики патологии на основе метаболомного профиля</p>
+								<button id = "card__bth_4" class="card__bth" type="button">О проекте</button>
+							</div>
 						</div>
-				    </div>
-					<div class="block__card">
-						<div class="card" id = "card_5">
-							<a class="link-app" href="#"><img class="image-app image-app-demo" src="./images/LIMS.jpg" alt="ЛИМС"><span class="subtitle">ЛИМС</span></a>
-							<span id = "span_5" class="span__description">Программное обеспечение, предназначенное для управления лабораторными проектами и документами в метаболомике</span>
-							<button id = "bth_5" class="bth">О проекте</button>
+						<div class="elements__block-card">
+							<div class="card" id = "card_5">
+								<a class="card__link-app" href="http://localhost:8000/" target="_blank"><img class="card__image-app" src="./images/LIMS.jpg" alt="ЛИМС"><h2 class="card__title">ЛИМС</h2></a>
+								<p id = "card__text_5" class="card__text">Программное обеспечение, предназначенное для управления лабораторными проектами и документами в метаболомике</p>
+								<button id = "card__bth_5" class="card__bth" type="button">О проекте</button>
+							</div>
 						</div>
-				    </div>
-				</nav>
-			</section>
+					</nav>
+				</section>
+			</main>
 			<footer class="footer">
                 <nav class="footer__links">
                     <a class="footer__link" href="#header">Главная</a>
-                    <a class="footer__link" href="#projects">Проекты</a>
+                    <a class="footer__link" href="#elements">Проекты</a>
                     <a class="footer__link" href="#">Контакты</a>
                 </nav>
                 <p class="footer__copyright">&copy; 2024. Центр биофармацевтического анализа и метаболомных исследований</p>
             </footer>
 		</div>
 		<script>
-			document.querySelector("#bth_1").addEventListener("click", function () {
+			document.querySelector("#card__bth_1").addEventListener("click", function () {
 				document.querySelector("#card_1").classList.toggle("card_active");
-				document.querySelector("#span_1").classList.toggle("span__description_active");
-				document.querySelector("#bth_1").classList.toggle("bth_active");
-				toggleText("#bth_1");
+				document.querySelector("#card__text_1").classList.toggle("card__text_active");
+				document.querySelector("#card__bth_1").classList.toggle("card__bth_active");
+				toggleText("#card__bth_1");
 			})
-			document.querySelector("#bth_2").addEventListener("click", function () {
+			document.querySelector("#card__bth_2").addEventListener("click", function () {
 				document.querySelector("#card_2").classList.toggle("card_active");
-				document.querySelector("#span_2").classList.toggle("span__description_active");
-				document.querySelector("#bth_2").classList.toggle("bth_active");
-				toggleText("#bth_2");
+				document.querySelector("#card__text_2").classList.toggle("card__text_active");
+				document.querySelector("#card__bth_2").classList.toggle("card__bth_active");
+				toggleText("#card__bth_2");
 			})
-			document.querySelector("#bth_3").addEventListener("click", function () {
+			document.querySelector("#card__bth_3").addEventListener("click", function () {
 				document.querySelector("#card_3").classList.toggle("card_active");
-				document.querySelector("#span_3").classList.toggle("span__description_active");
-				document.querySelector("#bth_3").classList.toggle("bth_active");
-				toggleText("#bth_3");
+				document.querySelector("#card__text_3").classList.toggle("card__text_active");
+				document.querySelector("#card__bth_3").classList.toggle("card__bth_active");
+				toggleText("#card__bth_3");
 			})
-			document.querySelector("#bth_4").addEventListener("click", function () {
+			document.querySelector("#card__bth_4").addEventListener("click", function () {
 				document.querySelector("#card_4").classList.toggle("card_active");
-				document.querySelector("#span_4").classList.toggle("span__description_active");
-				document.querySelector("#bth_4").classList.toggle("bth_active");
-				toggleText("#bth_4");
+				document.querySelector("#card__text_4").classList.toggle("card__text_active");
+				document.querySelector("#card__bth_4").classList.toggle("card__bth_active");
+				toggleText("#card__bth_4");
 			})
-			document.querySelector("#bth_5").addEventListener("click", function () {
+			document.querySelector("#card__bth_5").addEventListener("click", function () {
 				document.querySelector("#card_5").classList.toggle("card_active");
-				document.querySelector("#span_5").classList.toggle("span__description_active");
-				document.querySelector("#bth_5").classList.toggle("bth_active");
-				toggleText("#bth_5");
+				document.querySelector("#card__text_5").classList.toggle("card__text_active");
+				document.querySelector("#card__bth_5").classList.toggle("card__bth_active");
+				toggleText("#card__bth_5");
 			})
 
 			function toggleText(button_id)
