@@ -13,61 +13,63 @@
 	<body>
 		<div class="page">
 			<header class="header" id="header">
-				<div class="header__info">
-					<h1 class="header__title">AI-экосистема</h1>
-					<p class="header__text">центра биофармацевтического анализа и метаболомных исследований</p>
-				</div>
-				<!--Waves Container-->
-				<div>
-					<svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-					viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
-					<defs>
-					<path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
-					</defs>
-					<g class="parallax">
-					<use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
-					<use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
-					<use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
-					<use xlink:href="#gentle-wave" x="48" y="7" fill="rgba(255,255,255)"  />
-					</g>
-					</svg>
-				</div>
-                <a href="https://www.sechenov.ru/" target="_blank"><img class="header__logo" src="./images/logo.png" alt="Лого"></a>
+				<div class="header__logo-text">
+					<a class="header__link" href="https://www.sechenov.ru/" target="_blank"><img class="header__logo" src="./images/logo.png" alt="Лого"></a>
+					<div class="header__info">
+						<h1 class="header__title">AI-экосистема</h1>
+						<p class="header__text">центра биофармацевтического анализа и метаболомных исследований</p>
+					</div>
+			    </div>
 			</header>
+			<!--Waves Container-->
+			<div>
+				<svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+				viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+				<defs>
+				<path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+				</defs>
+				<g class="parallax">
+				<use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+				<use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+				<use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+				<use xlink:href="#gentle-wave" x="48" y="7" fill="rgba(255,255,255)"  />
+				</g>
+				</svg>
+			</div>
 			<main class="content">
 				<section class="elements" id="elements">
 					<nav class="elements__cards">
 						<div class="elements__block-card">
 							<div class="card" id = "card_1">
-								<a class="card__link-app" href="http://localhost:8501/" target="_blank"><img class="card__image-app" src="./images/preclinical.jpeg" alt="Preclinical"><h2 class="card__title">Доклинические исследования</h2></a>
+								<a class="card__link-app" href="http://51.250.45.124:8501/" target="_blank"><img class="card__image-app" src="./images/preclinical.jpeg" alt="Preclinical"><h2 class="card__title">Доклинические исследования</h2></a>
 								<p id = "card__text_1" class="card__text">Веб-приложение для расчёта и статистической обработки фармакокинетических/фармакодинамических параметров в доклинических исследованиях лекарственных препаратов</p>
 								<button id = "card__bth_1" class="card__bth" type="button" >О проекте</button>
 							</div>
 						</div>
 						<div class="elements__block-card">
 							<div class="card" id = "card_2">
-								<a class="card__link-app" href="#" target="_blank"><img class="card__image-app" src="./images/preprocessing.jpg" alt="Предобработка"><h2 class="card__title">Предобработка инструментальных данных</h2></a>
+								<a class="card__link-app" href="https://metaboscan-viewergit-bqveuqdyqdewqhxzbzky8d.streamlit.app/" target="_blank"><img class="card__image-app" src="./images/preprocessing.jpg" alt="Предобработка"><h2 class="card__title">Предобработка инструментальных данных</h2></a>
 								<p id = "card__text_2" class="card__text">Веб-приложение для предобработки и визуализации метаболомных данных</p>
 								<button id = "card__bth_2" class="card__bth" type="button">О проекте</button>
 							</div>
 						</div>
 						<div class="elements__block-card">
 							<div class="card" id = "card_3">
-								<a class="card__link-app" href="#" target="_blank"><img class="card__image-app" src="./images/qc.jpg" alt="Обработка"><h2 class="card__title">Обработка и анализ метаболомных данных</h2></a>
+								<a class="card__link-app" href="http://51.250.45.124:8502/" target="_blank"><img class="card__image-app" src="./images/qc.jpg" alt="Обработка"><h2 class="card__title">Обработка и анализ метаболомных данных</h2></a>
 								<p id = "card__text_3" class="card__text">Программное обеспечение для предобработки, углубленного статистического анализа и интерпретации результатов метаболомного исследования</p>
 								<button id = "card__bth_3" class="card__bth" type="button">О проекте</button>
 							</div>
 						</div>
 						<div class="elements__block-card"> 
 							<div class="card" id = "card_4">
-								<a class="card__link-app" href="#" target="_blank"><img class="card__image-app" src="./images/metaboscan_1.jpg" alt="Метабоскан"><h2 class="card__title">Метабоскан</h2></a>
+								<a class="card__link-app" href="http://localhost:8050/" target="_blank"><img class="card__image-app" src="./images/metaboscan_1.jpg" alt="Метабоскан"><h2 class="card__title">Метабоскан</h2></a>
 								<p id = "card__text_4" class="card__text">Уникальная скрининговая система диагностики патологии на основе метаболомного профиля</p>
 								<button id = "card__bth_4" class="card__bth" type="button">О проекте</button>
 							</div>
 						</div>
 						<div class="elements__block-card">
 							<div class="card" id = "card_5">
-								<a class="card__link-app" href="http://localhost:8000/" target="_blank"><img class="card__image-app" src="./images/LIMS.jpg" alt="ЛИМС"><h2 class="card__title">ЛИМС</h2></a>
+								<a class="card__link-app" href="http://51.250.45.124:8000/" target="_blank"><img class="card__image-app" src="./images/LIMS.jpg" alt="ЛИМС"><h2 class="card__title">ЛИМС</h2></a>
 								<p id = "card__text_5" class="card__text">Программное обеспечение, предназначенное для управления лабораторными проектами и документами в метаболомике</p>
 								<button id = "card__bth_5" class="card__bth" type="button">О проекте</button>
 							</div>
